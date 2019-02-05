@@ -46,11 +46,14 @@
 
     sudo docker rmi image_id || imgae_name
 
-# Questions
+> Tags
 
-> Tags in docker
+1. -p => giving the ports to connect from outside
+2. -d => will not stop running
+3. --name => give container a name before building
+
+> Questions about tags
+
 1. -i
 2. -t
-3. -d => will not stop running
-4. --name => give container a name before building
-5. -p => giving the ports to connect from outside
+3. -m
