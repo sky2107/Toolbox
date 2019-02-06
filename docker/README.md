@@ -70,7 +70,7 @@
 > option of docker ps will return only the containers’ IDs: 
 
     docker rm $(docker ps -a -q)
-
+#
 <h2><b><u>Tags</u></b></h2>
 
 1. -p => giving the ports to connect from outside
@@ -93,3 +93,8 @@
 3. sudo docker kill ... vs sudo docker rm ...
 4. grace period 
 5. sudo docker restart ... why not start
+
+#
+# Building images with Dockerfile
+
+>
