@@ -11,3 +11,9 @@
 
 #
 
+> Questiona
+
+1. sudo docker inspect  -f {{.Mounts}} container_id <br> 
+   => u can check if the container is connected or mounted
+2. docker cp =>
+3. docker ?
