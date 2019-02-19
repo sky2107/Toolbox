@@ -70,6 +70,10 @@
 > option of docker ps will return only the containers’ IDs: 
 
     docker rm $(docker ps -a -q)
+
+> Rename image
+
+    docker tag nameOFimage:plusTag newName:optionalNewTagName
 #
 <h2><b><u>Tags</u></b></h2>
 
@@ -77,14 +81,13 @@
 2. -d => will not stop running
 3. --name => give container a name before building
 4. -q => gives only the id`s back
+5. -t => gives the tag name
 
 > Questions about tags
 
 1. -i
-2. -t
-3. -m
-4. --expose
-
+2. -m
+3. --expose
 
 > Question in diffrent topics
 
@@ -93,8 +96,10 @@
 3. sudo docker kill ... vs sudo docker rm ...
 4. grace period 
 5. sudo docker restart ... why not start
+6. PACKER ???
 
 #
 # Building images with Dockerfile
 
->
+> Bad practice multiple RUN commands will add unnecessary layers to the image. Also to use the ADD command to copy a simple file it is better to use COPY. <br>
+> ADD => allows more-complex file copy scenarios <br>
