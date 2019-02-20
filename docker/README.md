@@ -114,9 +114,10 @@
 > Bad practice multiple RUN commands will add unnecessary layers to the image. Also to use the ADD command to copy a simple file it is better to use COPY. <br>
 > ADD => allows more-complex file copy scenarios <br>
 
-# STOPPED page 78
+# STOPPED page 100
 
 # Todos
 
 1. BitBucket + Github intensive
 2. LINKING not really understood !!!!!!!!!!
+3. Networking tutorial repeat

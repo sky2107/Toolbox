@@ -9,3 +9,10 @@
 > manually with -p 1111:2222 e.g.
 
 > Linking  Containers
+
+    --link <container_name>:<alias>
+
+    $ docker inspect -f "{{.HostConfig.Links}}" application 
+    [/database:/application/db] 
+    $ docker inspect -f "{{.HostConfig.Links}}" lb 
+    [/application:/lb/app] 
