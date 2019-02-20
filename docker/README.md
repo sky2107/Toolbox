@@ -53,6 +53,14 @@
 
     sudo docker docker ps -a
 
+> all containers but only ids
+
+    docker ps -q -a
+
+> rm all stopped containers
+
+    docker container prune
+
 > remove container
 
     sudo docker rm container_id || container_name
@@ -97,9 +105,18 @@
 4. grace period 
 5. sudo docker restart ... why not start
 6. PACKER ???
+7. ONBUILD function
+8. WORKDIR ??
 
 #
 # Building images with Dockerfile
 
 > Bad practice multiple RUN commands will add unnecessary layers to the image. Also to use the ADD command to copy a simple file it is better to use COPY. <br>
 > ADD => allows more-complex file copy scenarios <br>
+
+# STOPPED page 78
+
+# Todos
+
+1. BitBucket + Github intensive
+2. LINKING not really understood !!!!!!!!!!
