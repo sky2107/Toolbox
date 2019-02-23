@@ -20,15 +20,8 @@ class Node:
         yield self
         for c in self:
             yield from c.depth_first()
+    
 
-class DepthFirstIterator(object):
-    '''
-    Depth-first traversal
-    '''
-    def __init__(self, start_node):
-        self._node = start_node
-        self._chiildren = None
-        self._child_iter = None
 
 if __name__ == '__main__':
     root = Node(0)
