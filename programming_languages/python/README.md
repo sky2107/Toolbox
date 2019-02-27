@@ -1,5 +1,13 @@
 # Python
 
+> linux enviroment
+
+    sudo apt-get install python3-venv
+    # creating enviroment
+    python3 -m venv folder_name
+    cd folder_name
+    . bin/activate
+
 > sources books and utube
 
 #
