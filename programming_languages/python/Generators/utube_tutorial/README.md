@@ -1,7 +1,9 @@
 # UTUBE
 
 > question from itertools import islice, tee <br>
-> zip modul
+> zip modul <br>
+> generator cannot set parameters <br>
+> qpumped
 
 > Examples of the above modules
 

@@ -1,5 +1,10 @@
 # Python
 
+# Question
+
+1. How does it work???? sum(arr_new_2, 1))
+2. buildin methods for list
+
 > linux enviroment
 
     sudo apt-get install python3-venv
@@ -76,3 +81,19 @@
         print((add_1(1,2)))
         print((add_2(2,1)))
         print((add_1(2,1)))
+
+> Getter and Setter in a Class
+
+    class A:
+    def __init__(self, b):
+        self._b = b
+
+    @property
+    def b(self, value):
+        return self._b
+
+    @b.setter
+    def b(self, value):
+        if value < 0:
+            raise Exception('must be positive')
+        self._b = value
