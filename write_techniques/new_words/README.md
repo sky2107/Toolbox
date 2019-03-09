@@ -7,3 +7,5 @@
 5. mere => used to emphasize how small or insignificant someone or something is
 6. rigid => unable to bend or be forced out of shape; not flexible.
 7. yielding => (of a substance or object) giving way under pressure; not hard or rigid.
+8. prone => likely or liable to suffer from, do, or experience something unpleasant or regrettable.
+9. 

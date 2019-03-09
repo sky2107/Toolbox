@@ -8,6 +8,14 @@
 
     mv olf_folder new_folder
 
+> copy file to this location
+
+    cp SOURCE DEST
+    cp SOURCE DIRECTORY
+    cp SOURCE1 SOURCE2 SOURCE3 SOURCEn DIRECTORY
+    cp [OPTION] SOURCE DEST
+    cp [OPTION] SOURCE DIRECTORY
+
 > Repeat lass command maybe forgot sudo
 
     sudo !!
