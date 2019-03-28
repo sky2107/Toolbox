@@ -1,2 +1,12 @@
 handson-ml/
 handson-ml
+ocr_keras/
+ocr_keras
+system-design-primer/
+system-design-primer
+Algorithm_py/
+Algorithm_py
+pipenv/
+pipenv
+
+# other repros will be ignored

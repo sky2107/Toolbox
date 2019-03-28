@@ -38,3 +38,19 @@ all function of keras
 adaGrad 2011
 
 RMSProp optimizer
+
+https://keras.io/metrics/
+
+whole docu
+https://keras.io/
+
+https://app.deepcognition.ai/app/environments
+
+sky2107
+pwd linux
+
+
+flatten 
+https://stackoverflow.com/questions/43237124/role-of-flatten-in-keras/54190658#54190658
+
+padding
